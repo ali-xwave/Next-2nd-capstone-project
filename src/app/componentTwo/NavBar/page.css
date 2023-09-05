@@ -1,0 +1,17 @@
+.color-bg{
+    background-color: #2C3A61;
+    padding: 20px 0;
+}
+
+.gap{
+    padding: 0 0 0 10rem;
+}
+
+@media (max-width: 768px) {
+    .display{
+        display: none;
+    }
+    .color-bg{
+        padding:0;
+    }
+}

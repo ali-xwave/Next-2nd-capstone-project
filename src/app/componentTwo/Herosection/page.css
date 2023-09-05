@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Public+Sans:wght@100;200;400;500;600&display=swap");
+
+.hero-font{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.hero-para{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .hero-font{
+        font-family: 'Public Sans', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    .hero-para{
+        font-family: 'Public Sans', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+    }
+}

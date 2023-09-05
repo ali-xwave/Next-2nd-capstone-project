@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+.Rent-font {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.para-font {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.d-flex img {
+  padding: 0 0 0 20px;
+}
+
+.img1 {
+  padding: 0 0 0 130px;
+}
+
+.btnnn {
+  background-color: #4a60a1;
+  color: white;
+  border: none;
+}
+
+.position-btnnn{
+  position: absolute;
+  top: 0;
+  left: 10rem;
+}
+
+.position-view{
+  position: absolute;
+  left: 16.5rem;
+  top: 10rem;
+}
+
+.last-img{
+  margin: 2.5rem 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .d-flex img {
+    padding: 0 0 0 5px;
+  }
+  .img1 {
+    padding: 0 0 0 40px;
+  }
+
+  .position-btnnn{
+    position: absolute;
+    top: -0.5rem;
+    left: 3rem;
+    font-size:8px;
+  }
+  
+  .position-view{
+    position: absolute;
+    left: 4.8rem;
+    top: 3rem;
+    font-size: 4px;
+  }
+  .last-img{
+    margin: 1rem 0 0 0;
+  }
+}

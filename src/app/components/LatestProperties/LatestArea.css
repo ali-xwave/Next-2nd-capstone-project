@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Public+Sans:wght@100;200;300;400;500;600&display=swap");
+
+.card-h {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  
+}
+
+.font-family-six {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  padding: 50px 0 0 0;
+}
+
+.font-family-four {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.dollar-price {
+  color: #4a60a1;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.btnn {
+  padding: 10px 20px;
+  background-color: #4a60a1;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.butn {
+  border: none;
+  background-color: #4a60a1;
+  padding: 4px 7px;
+}

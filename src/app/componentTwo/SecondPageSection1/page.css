@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Public+Sans:wght@100;200;300;400;500;600&display=swap");
+
+.span-font {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.font-span {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.paddingpagetwo {
+  padding: 0 0 0 10rem;
+}
+
+.p-row {
+  padding: 100px 0 0 0 ;
+}
+.txt-color {
+  color: #4a60a1;
+  padding: 12px 0;
+}
+
+.p-fonts{
+    font-family: "Inter", sans-serif;
+    font-weight:400;
+}
+
+@media (max-width: 768px) {
+  .pagecoltwo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .paddingpagetwo {
+    padding: 1rem 0 0 0.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+  }
+
+  .p-row {
+    padding: 50px 0 0 0 ;
+  }
+}

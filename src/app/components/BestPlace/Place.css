@@ -1,0 +1,20 @@
+
+ .butnn{
+      color: white;
+      border: 1px solid white;
+      padding: 10px 20px;
+  }
+
+.back-img{
+  background: url("../../asseds/FooterBg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
