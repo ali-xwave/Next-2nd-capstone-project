@@ -1,7 +1,7 @@
 .bg{
   background: url("../../asseds/Background-img.svg") no-repeat center center;
   background-size: cover;
-  height: 80vh
+  height: 100vh
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Public+Sans:wght@100;200;300;400;500;600&display=swap");
 .nav-font{
@@ -72,6 +72,11 @@ width: 75%;
 }
 
 @media (max-width: 768px) {
+  .bg{
+  background: url("../../asseds/Background-img.svg") no-repeat center center;
+  background-size: cover;
+  height: 80vh
+}
   .display{
     display: none;
   }
