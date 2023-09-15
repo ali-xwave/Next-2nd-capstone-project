@@ -71,36 +71,108 @@ width: 75%;
   color: white;
 }
 
-@media (max-width: 768px) {
-  .bg{
-  background: url("../../asseds/Background-img.svg") no-repeat center center;
-  background-size: cover;
-  height: 80vh
+@media (max-width: 320px) {
+  .bg {
+    background: url("../../asseds/Background-img.svg") no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+  }
+  .display {
+    display: none;
+  }
+  .nav-padding {
+    padding: 0;
+    gap: 10px;
+  }
+  .hero-align p {
+    display: none;
+  }
+
+  .position-card {
+    position: absolute;
+    top: 137%;
+    left: 55%;
+    width: 100%;
+  }
+  .card-p {
+    padding: 2rem 0 0 0;
+  }
 }
-  .display{
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .bg {
+    background: url("../../asseds/Background-img.svg") no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+  }
+  .display {
     display: none;
   }
   .nav-padding {
     padding: 0;
     gap: 30px;
   }
-  .position-nav{
-    position: absolute;
-    top: 0;
-    left: 0rem;
-  }
-  .hero-align{
-    text-align: center;
-    margin: 0 0 0 0.2rem;
+  .hero-align p {
+    display: none;
   }
 
-  .position-card{
+  .position-card {
     position: absolute;
-    top: 30rem;
-    left: 13rem;
-    width: 80%;
-    }
-    .card-p{
-      padding: 2rem 0 0 0;
-    }
+    top: 120%;
+    left: 55%;
+    width: 100%;
+  }
+  .card-p {
+    padding: 2rem 0 0 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bg {
+    background: url("../../asseds/Background-img.svg") no-repeat center center;
+    background-size: cover;
+    height: 72vh;
+  }
+  .display {
+    display: none;
+  }
+  .nav-padding {
+    padding: 0;
+    gap: 30px;
+    font-size: 20px;
+  }
+  .hero-align p {
+    display: none;
+  }
+  .position-card {
+    position: absolute;
+    top: 100%;
+    left: 52%;
+    width: 100%;
+    padding: 0;
+  }
+  .card-p {
+    padding: 0;
+  }
+  .nav-btn {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .bg {
+    background: url("../../asseds/Background-img.svg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .display {
+    display: none;
+  }
+  .position-card {
+    position: absolute;
+    top: 100%;
+    left: 52%;
+    width: 100%;
+    padding: 0;
+  }
 }
